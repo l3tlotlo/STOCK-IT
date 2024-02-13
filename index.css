@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    user-select: none;
+    background-color:aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    color:grey;
+    background-color: azure;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    margin: 10px 0;
+    font-weight: bolder
+}
+
+button {
+    color: bisque;
+    background-color: coral;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-weight: bolder
+}
+
+button:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+    color: black
+}
+
+html, body{
+    background-color: cadetblue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: bisque;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
+}
